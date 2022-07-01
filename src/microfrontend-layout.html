@@ -19,16 +19,22 @@
 
   <main>
     <route default>
-      <application name="@single-spa/welcome"></application>
+      <application
+        name="mf-example-existing-vue-project"
+        loader="mainLoader"
+      ></application>
     </route>
     <route path="vue2">
-      <application name="@a-sinlapakorn/mf-vue2"></application>
+      <application
+        name="@a-sinlapakorn/mf-vue2"
+        loader="mainLoader"
+      ></application>
     </route>
     <route path="vue3">
-      <application name="@a-sinlapakorn/mf-vue3"></application>
-    </route>
-    <route path="existing-vue">
-      <application name="mf-example-existing-vue-project"></application>
+      <application
+        name="@a-sinlapakorn/mf-vue3"
+        loader="mainLoader"
+      ></application>
     </route>
   </main>
 </single-spa-router>
