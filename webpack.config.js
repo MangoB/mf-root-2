@@ -6,7 +6,7 @@ module.exports = (webpackConfigEnv, argv) => {
   const orgName = "a-sinlapakorn";
   const defaultConfig = singleSpaDefaults({
     orgName,
-    projectName: "root-config",
+    projectName: "root-config-2",
     webpackConfigEnv,
     argv,
     disableHtmlGeneration: true,

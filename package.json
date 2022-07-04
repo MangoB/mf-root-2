@@ -1,5 +1,5 @@
 {
-  "name": "@a-sinlapakorn/root-config",
+  "name": "@a-sinlapakorn/root-config-2",
   "scripts": {
     "start": "webpack serve --port 9000 --env isLocal",
     "lint": "eslint src --ext js,ts,tsx",
@@ -46,5 +46,5 @@
     "@types/webpack-env": "^1.16.2",
     "single-spa-layout": "^1.6.0"
   },
-  "types": "dist/a-sinlapakorn-root-config.d.ts"
+  "types": "dist/a-sinlapakorn-root-config-2.d.ts"
 }

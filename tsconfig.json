@@ -1,6 +1,6 @@
 {
   "extends": "ts-config-single-spa",
-  "files": ["src/a-sinlapakorn-root-config.ts"],
+  "files": ["src/a-sinlapakorn-root-config-2.ts"],
   "compilerOptions": {
     "declarationDir": "dist"
   },

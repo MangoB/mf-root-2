@@ -1,12 +1,12 @@
-# mf-root
+# mf-root-2
 This is an example root of a micro-frontends repository demonstrating how to use [Single-SPA](https://single-spa.js.org/) in this [article](https://medium.com/@a.sinlapakorn/%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87-micro-frontends-%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-single-spa-part-1-beginner-level-6644bf407d93).
 
 ## Setup
 To run this project, install it locally:
 
 ```
-$ git clone https://github.com/MangoB/mf-root
-$ cd mf-root
+$ git clone https://github.com/MangoB/mf-root-2
+$ cd mf-root-2
 $ yarn
 $ yarn start
 ```
