@@ -1,40 +1,22 @@
-<single-spa-router>
-  <!--
-
-    This is the single-spa Layout Definition for your microfrontends.
-    See https://single-spa.js.org/docs/layout-definition/ for more information.
-
-  -->
-
-  <!-- Example layouts you might find helpful:
-
-  <nav>
-    <application name="@org/navbar"></application>
-  </nav>
-  <route path="settings">
-    <application name="@org/settings"></application>
-  </route>
-
-  -->
-
+<single-spa-router base="/mf-root-2">
   <main>
-    <route default>
-      <application
-        name="mf-example-existing-vue-project-2"
-        loader="mainLoader"
-      ></application>
-    </route>
-    <route path="vue2">
-      <application
-        name="@a-sinlapakorn/mf-vue2"
-        loader="mainLoader"
-      ></application>
-    </route>
-    <route path="vue3">
-      <application
-        name="@a-sinlapakorn/mf-vue3"
-        loader="mainLoader"
-      ></application>
-    </route>
+      <route default>
+        <application
+          name="mf-example-existing-vue-project-2"
+          loader="mainLoader"
+        ></application>
+      </route>
+      <route path="vue2">
+        <application
+          name="@a-sinlapakorn/mf-vue2"
+          loader="mainLoader"
+        ></application>
+      </route>
+      <route path="vue3">
+        <application
+          name="@a-sinlapakorn/mf-vue3"
+          loader="mainLoader"
+        ></application>
+      </route>
   </main>
 </single-spa-router>
