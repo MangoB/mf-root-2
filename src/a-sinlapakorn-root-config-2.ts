@@ -7,7 +7,7 @@ import {
 import microfrontendLayout from "./microfrontend-layout.html";
 
 // Import loader page
-import mainLoader from "../public/html/mainLoader.html";
+import mainLoader from "./loader/mainLoader.html";
 
 // Set HTMLLayoutData for send to the router
 const data = {
