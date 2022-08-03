@@ -1,22 +1,22 @@
-<single-spa-router base="/mf-root-2">
+<single-spa-router>
   <main>
-      <route default>
-        <application
-          name="mf-example-existing-vue-project-2"
-          loader="mainLoader"
-        ></application>
-      </route>
-      <route path="vue2">
-        <application
-          name="@a-sinlapakorn/mf-vue2"
-          loader="mainLoader"
-        ></application>
-      </route>
-      <route path="vue3">
-        <application
-          name="@a-sinlapakorn/mf-vue3"
-          loader="mainLoader"
-        ></application>
-      </route>
+    <route default>
+      <application
+        name="mf-example-existing-vue-project-2"
+        loader="mainLoader"
+      ></application>
+    </route>
+    <route path="vue2">
+      <application
+        name="@a-sinlapakorn/mf-vue2"
+        loader="mainLoader"
+      ></application>
+    </route>
+    <route path="vue3">
+      <application
+        name="@a-sinlapakorn/mf-vue3"
+        loader="mainLoader"
+      ></application>
+    </route>
   </main>
 </single-spa-router>
