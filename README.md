@@ -4,6 +4,9 @@ For demonstrating how to use [Single-SPA](https://single-spa.js.org/) in this [a
 
 *Develop from [mf-root](https://github.com/MangoB/mf-root)
 
+## Live Demo
+https://mangob.github.io/mf-root-2/
+
 ## Setup
 To run this project, install it locally:
 
